@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b12">
+  <title>SBG〆—MUSTAK | Free Fire Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="topbar">
+  <a href="#home" class="brand">
+    <span class="brand-logo" data-image="logo">SBG</span>
+    <span>PLAYER <b>PROFILE</b></span>
+  </a>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#player-card">Player ID</a>
+    <a href="#stats">Stats</a>
+    <a href="#gallery">Gallery</a>
+  </nav>
+
+  <!-- একমাত্র Edit বাটন -->
+  <button id="openEditor" class="edit-btn" title="Edit Profile" aria-label="Edit Profile">✎</button>
+</header>
+
+<main>
+  <!-- BANNER LOCKED: Edit Form থেকে পরিবর্তন করা যাবে না -->
+  <section class="hero" id="home">
+    <div class="banner">
+      <img src="images/bsnner.jpeg" class="banner-image" alt="SBG Banner">
+      <div class="banner-shade"></div>
+      <div class="banner-content">
+        <span class="eyebrow">BANGLADESH • FREE FIRE</span>
+        <h1><span data-field="teamTag">SBG〆</span><br>
+          <span data-field="ign">MUSTAK</span>
+        </h1>
+        <p>FREE FIRE <b>•</b> E-SPORTS PLAYER</p>
+        <a class="primary-btn" href="#player-card">VIEW PLAYER ID ↗</a>
+      </div>
+      <span class="banner-code">COMPETITIVE PLAYER / 001</span>
+    </div>
+  </section>
+
+  <!-- PLAYER ID CARD -->
+  <section class="section" id="player-card">
+    <div class="section-heading">
+      <div><small>OFFICIAL-STYLE PLAYER PROFILE</small>
+        <h2>PLAYER <span>ID CARD</span></h2>
+      </div>
+      <span class="section-number">01 / IDENTITY</span>
+    </div>
+
+    <div class="id-wrap">
+      <article class="player-card">
+        <div class="card-top">
+          <div class="card-brand">
+            <span class="mini-logo" data-image="logo">SBG</span>
+            <span>ESPORTS<br><small>PLAYER IDENTITY</small></span>
+          </div>
+          <span class="id-chip">SBG PLAYER CARD</span>
+        </div>
+
+        <div class="card-main">
+          <div class="profile-image image-slot" data-image="profile">
+            <div class="placeholder"><b>SBG</b><small>PROFILE IMAGE</small></div>
+            <span class="level-tag">LV. <span data-field="level">0</span></span>
+          </div>
+
+          <div class="player-info">
+            <small class="label">IN-GAME NAME</small>
+            <h3 data-field="fullIgn">SBG〆—MUSTAK</h3>
+
+            <div class="role">
+              <span class="badge-slot image-slot" data-image="badge">✦</span>
+              <span data-field="role">RUSHER</span>
+            </div>
+
+            <div class="info-row">
+              <div><small class="label">REAL NAME</small>
+                <strong data-field="realName">Your Name</strong>
+              </div>
+            </div>
+            <div class="info-row">
+              <div><small class="label">PLAYER UID</small>
+                <strong class="cyan" data-field="uid">0000000000</strong>
+              </div>
+              <div><small class="label">SERVER</small>
+                <strong data-field="server">Bangladesh</strong>
+              </div>
+            </div>
+            <div class="info-row">
+              <div><small class="label">GUILD</small>
+                <strong data-field="guild">YOUR GUILD</strong>
+              </div>
+              <div><small class="label">MERIT</small>
+                <strong data-field="merit">100</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-stats">
+          <div><small>RANK</small><strong data-field="rank">UNRANKED</strong></div>
+          <div><small>K/D</small><strong data-field="kd">0.00</strong></div>
+          <div><small>HEADSHOT</small><strong data-field="headshot">0%</strong></div>
+          <div><small>WINS</small><strong data-field="wins">0</strong></div>
+          <div><small>LIKES</small><strong data-field="likes">0</strong></div>
+        </div>
+
+        <div class="card-bottom">
+          <span>FREE FIRE <b>•</b> E-SPORTS PLAYER</span>
+          <span>SBG / BD</span>
+        </div>
+      </article>
+      <p class="card-note">PERSONAL ESPORTS ID • PLAYER PROFILE</p>
+    </div>
+  </section>
+
+  <!-- STATISTICS -->
+  <section class="section" id="stats">
+    <div class="section-heading">
+      <div><small>NUMBERS THAT DEFINE THE PLAYER</small>
+        <h2>PLAYER <span>STATISTICS</span></h2>
+      </div>
+      <span class="section-number">02 / PERFORMANCE</span>
+    </div>
+
+    <div class="stats-grid">
+      <article class="stat-card"><span class="stat-icon">♛</span><small>CURRENT RANK</small><strong data-field="rank">UNRANKED</strong><p>Battle Royale</p></article>
+      <article class="stat-card"><span class="stat-icon">⌖</span><small>KILL / DEATH RATIO</small><strong data-field="kd">0.00</strong><p>K/D Ratio</p></article>
+      <article class="stat-card"><span class="stat-icon">◎</span><small>HEADSHOT RATE</small><strong data-field="headshot">0%</strong><p>Headshot</p></article>
+      <article class="stat-card"><span class="stat-icon">♜</span><small>TOTAL WINS</small><strong data-field="wins">0</strong><p>Reported wins</p></article>
+      <article class="stat-card"><span class="stat-icon">♥</span><small>PROFILE LIKES</small><strong data-field="likes">0</strong><p>Likes</p></article>
+      <article class="stat-card"><span class="stat-icon">⚡</span><small>PLAYER LEVEL</small><strong data-field="level">0</strong><p>Profile level</p></article>
+    </div>
+  </section>
+
+  <!-- DETAILS -->
+  <section class="section" id="details">
+    <div class="section-heading">
+      <div><small>PLAYER INFORMATION</small>
+        <h2>BEYOND THE <span>BATTLE</span></h2>
+      </div>
+      <span class="section-number">03 / DETAILS</span>
+    </div>
+
+    <div class="details-grid">
+      <article class="panel">
+        <small class="eyebrow">PLAYER BIO</small>
+        <h3>THE PLAYER</h3>
+        <h4 data-field="realName">Your Name</h4>
+        <p class="muted" data-field="bio">A Free Fire player building skills, teamwork and competitive experience.</p>
+        <div class="detail-row"><span>In-game name</span><strong data-field="fullIgn">SBG〆—MUSTAK</strong></div>
+        <div class="detail-row"><span>UID</span><strong data-field="uid">0000000000</strong></div>
+        <div class="detail-row"><span>Server</span><strong data-field="server">Bangladesh</strong></div>
+        <div class="detail-row"><span>Level</span><strong data-field="level">0</strong></div>
+        <div class="detail-row"><span>Guild</span><strong data-field="guild">YOUR GUILD</strong></div>
+        <div class="detail-row"><span>Merit</span><strong data-field="merit">100</strong></div>
+      </article>
+
+      <article class="panel mission-panel">
+        <small class="eyebrow">PLAYER MINDSET</small>
+        <h3>FREE FIRE.</h3>
+        <h3 class="red-text">E-SPORTS PLAYER.</h3>
+        <p class="muted" data-field="mindset">Every round is a new challenge. Every fight is an opportunity to improve.</p>
+        <div class="playstyle"><small>PLAYSTYLE</small><strong data-field="role">RUSHER</strong></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- LOADOUT -->
+  <section class="section" id="loadout">
+    <div class="section-heading">
+      <div><small>FAVOURITES</small><h2>MY <span>LOADOUT</span></h2></div>
+      <span class="section-number">04 / CHOICES</span>
+    </div>
+
+    <div class="loadout-grid">
+      <article class="loadout-card">
+        <div class="loadout-image image-slot" data-image="gun"><div class="placeholder"><b>GUN</b><small>UPLOAD IMAGE IN EDIT</small></div><span class="number">01</span></div>
+        <div class="loadout-info"><small>FAVOURITE GUN</small><h3 data-field="gunName">M590</h3></div>
+      </article>
+      <article class="loadout-card">
+        <div class="loadout-image image-slot" data-image="rankImage"><div class="placeholder"><b>RANK</b><small>UPLOAD IMAGE IN EDIT</small></div><span class="number">02</span></div>
+        <div class="loadout-info"><small>FAVOURITE RANK</small><h3 data-field="rankMode">BR-RANKED</h3></div>
+      </article>
+      <article class="loadout-card">
+        <div class="loadout-image image-slot" data-image="map"><div class="placeholder"><b>MAP</b><small>UPLOAD IMAGE IN EDIT</small></div><span class="number">03</span></div>
+        <div class="loadout-info"><small>FAVOURITE MAP</small><h3 data-field="mapName">BERMUDA</h3></div>
+      </article>
+      <article class="loadout-card">
+        <div class="loadout-image image-slot" data-image="character"><div class="placeholder"><b>CHARACTER</b><small>UPLOAD IMAGE IN EDIT</small></div><span class="number">04</span></div>
+        <div class="loadout-info"><small>FAVOURITE CHARACTER</small><h3 data-field="characterName">OSCAR</h3></div>
+      </article>
+      <article class="loadout-card">
+        <div class="loadout-image image-slot" data-image="pet"><div class="placeholder"><b>PET</b><small>UPLOAD IMAGE IN EDIT</small></div><span class="number">05</span></div>
+        <div class="loadout-info"><small>FAVOURITE PET</small><h3 data-field="petName">FALCO</h3></div>
+      </article>
+      <article class="loadout-card">
+        <div class="loadout-image image-slot" data-image="roleImage"><div class="placeholder"><b>RUSHER</b><small>UPLOAD IMAGE IN EDIT</small></div><span class="number">06</span></div>
+        <div class="loadout-info"><small>FAVOURITE ROLE</small><h3 data-field="role">RUSHER</h3></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section" id="gallery">
+    <div class="section-heading">
+      <div><small>IN-GAME PROOF</small><h2>PROFILE <span>GALLERY</span></h2></div>
+      <span class="section-number">05 / MEDIA</span>
+    </div>
+
+    <article class="gallery-panel">
+      <div class="gallery-heading"><div><small>PLAYER SCREENSHOT</small><h3>IN-GAME PROFILE</h3></div><span>PLAYER GALLERY</span></div>
+      <div class="profile-screenshot image-slot" data-image="gameProfile"><div class="placeholder"><b>GAME PROFILE</b><small>UPLOAD SCREENSHOT IN EDIT</small></div></div>
+    </article>
+
+    <div class="gameplay-grid">
+      <div class="gameplay-image image-slot" data-image="gameplay1"><div class="placeholder"><b>GAMEPLAY 01</b><small>UPLOAD SCREENSHOT IN EDIT</small></div></div>
+      <div class="gameplay-image image-slot" data-image="gameplay2"><div class="placeholder"><b>GAMEPLAY 02</b><small>UPLOAD SCREENSHOT IN EDIT</small></div></div>
+    </div>
+  </section>
+
+  <!-- SOCIAL LINKS -->
+  <section class="section social-section">
+    <small class="eyebrow">CONNECT WITH THE PLAYER</small>
+    <h2>FOLLOW THE <span>JOURNEY</span></h2>
+    <p class="muted">Social links can be added from the Edit Form.</p>
+    <div class="social-links">
+      <a data-link="youtube" href="#" class="social-link">YouTube</a>
+      <a data-link="facebook" href="#" class="social-link">Facebook</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="brand"><span class="brand-logo">SBG</span><span data-field="fullIgn">SBG〆—MUSTAK</span></div>
+  <p>FREE FIRE <b>•</b> E-SPORTS PLAYER</p>
+  <small>Fan-made personal profile. Not an official Garena or Free Fire website.</small>
+</footer>
+
+</body>
+</html>
